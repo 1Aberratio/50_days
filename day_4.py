@@ -13,8 +13,7 @@ print('------------------------')
 # Extra Challenge: Index of the Longest Word
 
 def word_index(theWords):
-    words = tuple(map(len, theWords))
-    return words.index(max(words))
+    return theWords.index(max(theWords))
 
 words1 = ["Hate", "remorse", "vengeance"]
 words2 = ["Love", "Hate"]
