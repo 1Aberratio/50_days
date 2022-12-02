@@ -1,8 +1,7 @@
 # Day 11: Are They Equal?
 
 def equal_strings(str1, str2):    
-    if sorted(str1) == sorted(str2): return True
-    else: return False
+    return True if sorted(str1) == sorted(str2) else False
 
 word_a = 'live'
 word_b = 'evil'
