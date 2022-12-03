@@ -1,11 +1,10 @@
 # Day 11: Are They Equal?
 
-def equal_strings(str1, str2):    
-    return True if sorted(str1) == sorted(str2) else False
-
-word_a = 'live'
-word_b = 'evil'
-print(equal_strings(word_a, word_b))
+def equal_strings(str1, str2):      
+    return sorted(str1) == sorted(str2)
+    
+print(equal_strings('live', 'evil'))
+print(equal_strings('rock', 'jazz'))
 
 print('--------------------------')
 
