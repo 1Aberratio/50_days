@@ -1,7 +1,7 @@
 # Day 21: List of Tuples
 
 def make_tuples(lst_1, lst_2):
-    return [(lst_1[i], lst_2[i]) for i in range(len(lst_1))]
+    return list(zip(lst_1, lst_2))
     
 f_list = [1,2,3,4]
 s_list = [5,6,7,8]
